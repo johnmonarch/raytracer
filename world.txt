@@ -1,0 +1,147 @@
+# Ray Tracer 3: reflections
+0 0  5        #viewpoint (x, y, z)
+8 6           #world x and y dims
+
+# Floor
+plane
+7 7 7         # Color
+0.9           # Diffuse
+0          # Specular
+# Plane specific data
+0 -4 0      # Point
+0 1 0         # Normal
+
+# Light
+pointlight
+2 2 2         # Emissivity
+0 8 -10  # center
+
+# Light
+pointlight
+100 0 0         # Emissivity
+-2 8 -10  # center
+
+# Sphere
+sphere
+10 0 0         # color
+.75           # diffuse
+1           # specular
+#Sphere specific data
+0  5 -5     # center
+1             # radius
+
+# Sphere
+sphere
+10 10 2         # color
+.75           # diffuse
+1           # specular
+#Sphere specific data
+0  3 -5     # center
+1             # radius
+
+# Sphere
+sphere
+0 10 0         # color
+.75           # diffuse
+1           # specular
+#Sphere specific data
+0  1 -5     # center
+1             # radius
+
+# Rectangle
+rectangle
+10 10 2         # Color
+.75           # Diffuse
+0           # Specular
+#Plane Specific data
+ 0 -3 0      # Point
+0 1 0        # Normal
+#Rectangle Specific data
+1 0 0       # Orientation Vector
+1 4           # Width and Length
+
+# Rectangle
+rectangle
+10 10 2         # Color
+.75           # Diffuse
+0           # Specular
+#Plane Specific data
+ 0 -3 -5      # Point
+0 1 0        # Normal
+#Rectangle Specific data
+1 0 0       # Orientation Vector
+1 4           # Width and Length
+
+# Rectangle
+rectangle
+10 10 2         # Color
+.75           # Diffuse
+0           # Specular
+#Plane Specific data
+ 0 -3 -10      # Point
+0 1 0        # Normal
+#Rectangle Specific data
+1 0 0       # Orientation Vector
+1 4           # Width and Length
+
+# Rectangle
+rectangle
+10 10 2         # Color
+.75           # Diffuse
+0           # Specular
+#Plane Specific data
+ 0 -3 -15      # Point
+0 1 0        # Normal
+#Rectangle Specific data
+1 0 0       # Orientation Vector
+1 4           # Width and Length
+
+# Rectangle
+rectangle
+10 10 2         # Color
+.75           # Diffuse
+0           # Specular
+#Plane Specific data
+ 0 -3 -20      # Point
+0 1 0        # Normal
+#Rectangle Specific data
+1 0 0       # Orientation Vector
+1 4           # Width and Length
+
+# Rectangle
+rectangle
+10 10 2         # Color
+.75           # Diffuse
+0           # Specular
+#Plane Specific data
+ 0 -3 -25      # Point
+0 1 0        # Normal
+#Rectangle Specific data
+1 0 0       # Orientation Vector
+1 4           # Width and Length
+
+# Triangle
+triangle
+6 6 6         # color
+0.9           # diffuse
+2             # specular
+#Plane specific data
+ 4 1.5 -5   # Point
+1 0 0.5       # Normal
+#Triangle specific data
+1 0 1         # Orient 1
+6             # Edge 0 length
+1 1 0         # Orient 2
+5             # Edge 1 length
+
+# Rectangle
+rectangle
+2 2 2         # Color
+.75           # Diffuse
+2           # Specular
+#Plane Specific data
+ -3 -1 -3      # Point
+-1 0 0        # Normal
+#Rectangle Specific data
+0.2 0 1       # Orientation Vector
+30 100           # Width and Length
